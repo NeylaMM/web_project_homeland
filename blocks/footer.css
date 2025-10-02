@@ -1,18 +1,14 @@
 .footer {
-  color: #fff;
   max-width: 166px;
   text-align: center;
-  margin-top: 92px;
-  margin-bottom: 24px;
+  margin: 92px auto 24px;
+  display: block;
 }
 
 .footer__copyright {
   max-width: 166px;
-  margin-top: 92px;
-  margin-bottom: 24px;
   font-family: "Inter";
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
 }
-
