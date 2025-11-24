@@ -1,45 +1,110 @@
 .intro {
-max-width: 984px;
-text-align:left;
-margin: 92px auto;
+  max-width: 984px;
+  text-align: left;
+  margin: 92px auto;
 }
 
 .intro__title {
-max-width: 830px;
-font-weight: 900;
-font-size: 54px;
-line-height: 58px;
-font-family: "Inter";
-text-align:left;
-
+  max-width: 830px;
+  font-weight: 900;
+  font-size: 54px;
+  line-height: 58px;
+  font-family: "Inter";
+  text-align: left;
 }
 
 .intro__subtitle {
-max-width: 738px;
-font-family: "Inter";
-font-weight: 400;
-font-size: 24px;
-line-height: 34px;
-margin-top: 40px;
-text-align:left;
+  max-width: 738px;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 40px;
+  text-align: left;
 }
 
 .intro__author {
-text-align: right;
-font-family: "Inter";
-max-width: 732px;
-font-weight: 400;
-font-size: 24px;
-line-height: 34px;
-margin-top: 10px;
+  text-align: right;
+  font-family: "Inter";
+  max-width: 732px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  margin-top: 10px;
 }
 
 .intro__text {
-font-family: "Inter";
-max-width: 722px;
+  font-family: "Inter";
+  max-width: 722px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 163%;
+  margin-top: 32px;
+  text-align: left;
+}
+
+@media screen and (max-width: 1024px) {
+  .intro {
+  }
+
+  .intro__title {
+    font-weight: 900;
+    font-size: 45px;
+    line-height: 49px;
+    letter-spacing: 0%;
+  }
+
+  .intro__subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+  }
+
+  .intro__author {
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 34px;
+    letter-spacing: 0%;
+  }
+
+  .intro__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 163%;
+    letter-spacing: 0%;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  .intro {
+  }
+
+  .intro__title {
+font-weight: 900;
+font-size: 32px;
+line-height: 35px;
+letter-spacing: 0%;
+  }
+
+  .intro__subtitle {
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+letter-spacing: 0%;
+  }
+
+  .intro__author {
+font-weight: 400;
+font-size: 24px;
+line-height: 34px;
+letter-spacing: 0%;
+  }
+
+  .intro__text {
 font-weight: 400;
 font-size: 16px;
 line-height: 163%;
-margin-top: 32px;
-text-align:left;
+letter-spacing: 0%;
+  }
 }
